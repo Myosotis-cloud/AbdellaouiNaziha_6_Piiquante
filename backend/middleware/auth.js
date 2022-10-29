@@ -5,6 +5,7 @@ const jwt = require("jsonwebtoken");
 // ---middleware de verification de validité du token-----
 module.exports = (req, res, next) => {
     try {
+
         // --récupération du token dans bearer token---
         const token = req.headers.authorization.split(' ')[1];
         // La méthode  verify()  du package jsonwebtoken permet de vérifier la validité d'un token
