@@ -33,8 +33,6 @@ Pré-requis : utilisation de Node.js version 18.12.0.
 
 Dans le dossier backend, taper `npm install`.
 
-Utiliser le fichier .env.example pour créer un fichier .env et remplir les informations sur la base de données, la clé de chiffrement CryptoJS et la clé secrète pour le token.
-
 Lancement du serveur : `node server` ou `nodemon server`, `npm run start`
 
 URL du serveur : [http://localhost:3000](http://localhost:3000).
