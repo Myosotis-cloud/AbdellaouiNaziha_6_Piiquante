@@ -1,10 +1,6 @@
 // ------Importer framework Express, Mongoose et path--------
 const mongoose = require('mongoose');
 const express = require ('express');
-
-// require("dotenv").config();
-// console.log(process.env);
-
 const path = require('path');
 // -------fin de l'import framework --------------------------
 
@@ -13,7 +9,7 @@ const sauceRoutes   = require ('./routes/sauce');
 const userRoutes    = require ('./routes/user');
 
 // ------------------connecter notre API au cluster de MongoDB Atlas ------------------------------------
-mongoose.connect('mongodb+srv://nboussem81:Myosotis2020@cluster0.zvfal2f.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Mansourah-13:rN9Os9eqBcI6cfdZ@hotetakes.sjtew0l.mongodb.net/?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
